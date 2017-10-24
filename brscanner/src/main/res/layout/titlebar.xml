@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA000F"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:id="@+id/btn_back"
+        android:src="@drawable/img_var_title_back"
+        android:background="#DA000F"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="扫码验证"
+        android:textColor="#fff"/>
+
+</LinearLayout>
